@@ -4,7 +4,7 @@ const xo = (foo) => {
 	for(let j = 0; j < foo.length; j++) {
 		foo.charAt(j) === 'x' ? xFoo++ : oFoo++;
 	}
-		return (xFoo === oFoo ? true : false);
+	return (xFoo === oFoo ? true : false);
 };
 
 // TEST CASES
