@@ -1,6 +1,9 @@
-const tanggal = parseInt(prompt(`assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)`));
-const bulan = parseInt(prompt(`assign nilai variabel bulan disini! (dengan angka antara 1 - 12)`));
-const tahun = parseInt(prompt(`assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)`)); 
+// const tanggal = parseint(prompt(`assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)`));
+// const bulan = parseInt(prompt(`assign nilai variabel bulan disini! (dengan angka antara 1 - 12)`));
+// const tahun = parseInt(prompt(`assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)`)); 
+const tanggal = 9;
+const bulan = 7;
+const tahun = 2019:
 
 const result = ( bulan => { 
   switch(bulan) {
@@ -46,4 +49,4 @@ const result = ( bulan => {
 });
 
 console.log(result(bulan));
-alert(`Periksa Java Script Console!`); 
+// alert(`Periksa Java Script Console!`); 
