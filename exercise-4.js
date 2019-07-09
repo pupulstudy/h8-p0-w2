@@ -3,10 +3,9 @@
 // const tahun = parseInt(prompt(`assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)`)); 
 const tanggal = 9;
 const bulan = 7;
-const tahun = 2019:
+const tahun = 2019;
 
-const result = ( bulan => { 
-  switch(bulan) {
+switch(bulan) {
     case 1:
     console.log(`${tanggal} Januari ${tahun}`);
     break;
@@ -45,8 +44,6 @@ const result = ( bulan => {
     break;
     default:
     console.log('Assign nilai variabel bulan tidak sesuai!')
-  }
-});
+}
 
-console.log(result(bulan));
 // alert(`Periksa Java Script Console!`); 
